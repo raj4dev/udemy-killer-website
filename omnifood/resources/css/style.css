@@ -22,3 +22,7 @@ header {
     background-image: url(img/hero.jpg);
     height: 100vh; /*100% of viewport*/
 }
+
+h1 {
+    margin: 0;
+}
