@@ -21,6 +21,7 @@ html {
 header {
     background-image: url(img/hero.jpg);
     background-size: cover;/*It is like zooming into the background image*/
+    background-position: center;
     height: 100vh; /*100% of viewport*/
 }
 
