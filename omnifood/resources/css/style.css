@@ -20,9 +20,19 @@ html {
 
 header {
     background-image: url(img/hero.jpg);
+    background-size: cover;/*It is like zooming into the background image*/
     height: 100vh; /*100% of viewport*/
 }
 
 h1 {
     margin: 0;
 }
+
+
+/*
+NOTES - 
+background-size also accepts the cover keyword. The image is scaled to fit the entire container but, if that has a different aspect ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-property/
+
+
+
+*/
