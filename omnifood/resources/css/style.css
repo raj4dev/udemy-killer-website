@@ -30,6 +30,7 @@ header {
     width: 1140px; /*Look at css for ".row"*/
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%); /*Moves the heading. NOT sure if we should use this.*/
 }
 
 h1 {
