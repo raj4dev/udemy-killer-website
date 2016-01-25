@@ -25,6 +25,13 @@ header {
     height: 100vh; /*100% of viewport*/
 }
 
+.hero-text-box {
+    position: absolute;
+    width: 1140px; /*Look at css for ".row"*/
+    top: 50%;
+    left: 50%;
+}
+
 h1 {
     margin: 0;
 }
