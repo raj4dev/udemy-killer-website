@@ -19,7 +19,8 @@ html {
 }
 
 header {
-    background-image: url(img/hero.jpg);
+    /*linear gradient added to make heading text more legible*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;/*It is like zooming into the background image*/
     background-position: center;
     height: 100vh; /*100% of viewport*/
@@ -42,6 +43,6 @@ h1 {
 NOTES - 
 background-size also accepts the cover keyword. The image is scaled to fit the entire container but, if that has a different aspect ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-property/
 
-
+In the header, linear gradient acts like a second background image.
 
 */
