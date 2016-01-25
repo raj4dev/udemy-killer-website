@@ -36,6 +36,12 @@ header {
 
 h1 {
     margin: 0;
+    color: #fff;
+    font-size: 240%; /*We use percentage because this is responsive design*/
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 
