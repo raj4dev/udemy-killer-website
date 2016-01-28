@@ -1,3 +1,7 @@
+/*------------------------------------------*/
+/* BASIC SETUP */
+/*------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -13,26 +17,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*------------------------------------------*/
+/* REUSABLE COMPONENTS */
+/*------------------------------------------*/
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-header {
-    /*linear gradient added to make heading text more legible*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-size: cover;/*It is like zooming into the background image*/
-    background-position: center;
-    height: 100vh; /*100% of viewport*/
-}
-
-.hero-text-box {
-    position: absolute;
-    width: 1140px; /*Look at css for ".row"*/
-    top: 50%; /*Top and left are w.r.t the left edge of element. So, image will not be exactly centered*/
-    left: 50%;
-    transform: translate(-50%, -50%); /*This moves the element by 50% of its width & height, thereby perfectly centering the box*/
-}
+/*------------------------------------------*/
+/* HEADINGS */
+/*------------------------------------------*/
 
 h1 {
     margin-top: 0;
@@ -44,6 +40,10 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 4px;
 }
+
+/*------------------------------------------*/
+/* BUTTONS */
+/*------------------------------------------*/
 
 .btn:link,
 .btn:visited {
@@ -86,8 +86,31 @@ h1 {
     color: #fff;
 }
 
+/*------------------------------------------*/
+/* HEADER */
+/*------------------------------------------*/
+
+header {
+    /*linear gradient added to make heading text more legible*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;/*It is like zooming into the background image*/
+    background-position: center;
+    height: 100vh; /*100% of viewport*/
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px; /*Look at css for ".row"*/
+    top: 50%; /*Top and left are w.r.t the left edge of element. So, image will not be exactly centered*/
+    left: 50%;
+    transform: translate(-50%, -50%); /*This moves the element by 50% of its width & height, thereby perfectly centering the box*/
+}
+
+
+/*------------------------------------------*/
+/* NOTES */
+/*------------------------------------------*/
 /*
-NOTES - 
 >> background-size also accepts the cover keyword. The image is scaled to fit the entire container but, if that has a different aspect 
 ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-property/
 
