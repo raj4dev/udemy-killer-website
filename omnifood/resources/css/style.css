@@ -123,6 +123,12 @@ header {
     
 }
 
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
 
 /*------------------------------------------*/
 /* NOTES */
