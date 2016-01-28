@@ -35,7 +35,8 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: #fff;
     font-size: 240%; /*We use percentage because this is responsive design*/
     font-weight: 300;
@@ -44,12 +45,51 @@ h1 {
     word-spacing: 4px;
 }
 
+.btn:link,
+.btn:visited {
+    display: inline-block;/*inline-block elements are like inline elements but they can have a width and height*/
+    padding: 10px 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
 
 /*
 NOTES - 
-background-size also accepts the cover keyword. The image is scaled to fit the entire container but, if that has a different aspect 
+>> background-size also accepts the cover keyword. The image is scaled to fit the entire container but, if that has a different aspect 
 ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-property/
 
-In the header, linear gradient acts like a second background image.
+>> In the header, linear gradient acts like a second background image.
+
+>> :link, :visited etc are pseudo class for html links
 
 */
