@@ -110,17 +110,18 @@ header {
     height: 100px;
     width: auto;
     float: left;/*Now, "content" below the img tag, can float around it.*/
+    margin-top: 20px;
 }
 
 .main-nav {
     float: right;
     list-style: none;
+    margin-top: 55px;
 }
 
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
-    
 }
 
 .main-nav li a {
