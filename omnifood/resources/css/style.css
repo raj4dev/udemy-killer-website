@@ -42,7 +42,6 @@ h2,
 h3 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h1 {
@@ -51,6 +50,7 @@ h1 {
     color: #fff;
     font-size: 240%; /*We use percentage because this is responsive design*/
     word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -58,6 +58,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
 }
 
 /*This will be a solid line after all h2 elements.*/
