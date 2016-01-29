@@ -69,9 +69,15 @@ h2:after {
     margin-top: 30px;
 }
 
-/*------------------------------------------*/
-/* BUTTONS */
-/*------------------------------------------*/
+/* ----- PARAGRAPHS ----- */
+/*Refer to the typography lesson*/
+.long-copy {
+    line-height: 145%; /*should be between 120% and 145%*/
+    width: 70%; /*With this, the text will not be centered anymore. Setting the margin will fix this.*/
+    margin-left: 15%; /*Will effectively center all the text*/
+}
+
+/* ----- BUTTONS ----- */
 
 .btn:link,
 .btn:visited {
