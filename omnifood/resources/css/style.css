@@ -58,6 +58,17 @@ h2 {
     margin-bottom: 30px;
 }
 
+/*This will be a solid line after all h2 elements.*/
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " "; /*Important - We must specify the content of the :after pseudo element*/
+    width: 100px;
+    margin: 0 auto; /*To center the line horizontally*/
+    margin-top: 30px;
+}
+
 /*------------------------------------------*/
 /* BUTTONS */
 /*------------------------------------------*/
