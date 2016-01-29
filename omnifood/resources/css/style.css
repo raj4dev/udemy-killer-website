@@ -26,6 +26,12 @@ html {
     margin: 0 auto;
 }
 
+/*Adding whitespace between sections for clarity. Will use padding instead of margin for that because we will add some background later.*/
+section {
+    padding: 80px 0; /*top&bottom left&right*/
+}
+
+
 /*------------------------------------------*/
 /* HEADINGS */
 /*------------------------------------------*/
