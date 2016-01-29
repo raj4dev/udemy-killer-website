@@ -31,13 +31,15 @@ section {
     padding: 80px 0; /*top&bottom left&right*/
 }
 
+.box {
+    padding: 1%;
+}
 
-/*------------------------------------------*/
-/* HEADINGS */
-/*------------------------------------------*/
+/* ------ HEADINGS ----- */
 
 h1, 
-h2 {
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -67,6 +69,11 @@ h2:after {
     width: 100px;
     margin: 0 auto; /*To center the line horizontally*/
     margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
 }
 
 /* ----- PARAGRAPHS ----- */
