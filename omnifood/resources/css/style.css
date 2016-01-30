@@ -197,6 +197,34 @@ header {
 }
 
 /*------------------------------------------*/
+/* MEALS */
+/*------------------------------------------*/
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%; /*4 li should occupy full width.*/
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+
+.meal-photo img {
+    width: 100%;
+    height: auto;/*This will scale the image in proportion to the 25% width set for meals-showcase-li*/
+}
+
+
+
+/*------------------------------------------*/
 /* NOTES */
 /*------------------------------------------*/
 /*
