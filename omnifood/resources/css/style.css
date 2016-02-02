@@ -224,9 +224,8 @@ header {
 .meal-photo img {
     width: 100%;
     height: auto;/*This will scale the image in proportion to the 25% width set for meals-showcase-li*/
+    transform: scale(1.15); /*This is a part of our "animation" for food images.*/
 }
-
-
 
 /*------------------------------------------*/
 /* NOTES */
