@@ -226,6 +226,11 @@ header {
     width: 100%;
     height: auto;/*This will scale the image in proportion to the 25% width set for meals-showcase-li*/
     transform: scale(1.15); /*This is a part of our "animation" for food images.*/
+    transition: transform 0.5s; /*animation - changing from this css setting to another will take 0.5s*/
+}
+
+.meal-photo img:hover {
+    transform: scale(1.03); /*Not 1 because we want to cover some whitespace below each image.*/
 }
 
 /*------------------------------------------*/
