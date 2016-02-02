@@ -219,17 +219,20 @@ header {
     width: 100%;
     margin: 0;
     overflow: hidden; /*This is to prevent spilling out of images when we scale the images.*/
+    background: #000;
 }
 
 
 .meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;/*This will scale the image in proportion to the 25% width set for meals-showcase-li*/
     transform: scale(1.15); /*This is a part of our "animation" for food images.*/
-    transition: transform 0.5s; /*animation - changing from this css setting to another will take 0.5s*/
+    transition: transform 0.5s, opacity 0.5s; /*animation - changing from this css setting to another will take some time*/
 }
 
 .meal-photo img:hover {
+    opacity: 1;
     transform: scale(1.03); /*Not 1 because we want to cover some whitespace below each image.*/
 }
 
