@@ -17,6 +17,7 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
 /*------------------------------------------*/
 /* REUSABLE COMPONENTS */
 /*------------------------------------------*/
@@ -142,6 +143,7 @@ h3 {
     color: #fff;
 }
 
+
 /*------------------------------------------*/
 /* HEADER */
 /*------------------------------------------*/
@@ -196,6 +198,7 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+
 /*------------------------------------------*/
 /* FEATURES */
 /*------------------------------------------*/
@@ -231,7 +234,6 @@ header {
     background: #000;
 }
 
-
 .meal-photo img {
     opacity: 0.7;
     width: 100%;
@@ -246,6 +248,61 @@ header {
 }
 
 /*------------------------------------------*/
+/* HOW IT WORKS */
+/*------------------------------------------*/
+
+.steps-box {
+    margin-top: 30px; 
+}
+
+.steps-box:first-child {
+    text-align: right; /*Works for text, inline and inline-block elements.*/
+    padding-right: 3%;
+    margin-top: 30px;/*To align both the steps boxes better*/
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;/*To align both the steps boxes better*/
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+/*just a demo of last-of-type.*/
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block; /*To ensure that the number(in div) can be beside the text and not cause a line break.*/
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+
+
+/*------------------------------------------*/
 /* NOTES */
 /*------------------------------------------*/
 /*
@@ -256,5 +313,7 @@ ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-
 
 >> :link, :visited etc are pseudo class for html links. Note that the order of the CSS for links matters. Two key CSS concepts explain
 this. Specificity and inheritance. https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/
+
+>>> :first-child - The :first-child selector will select only the first child of a particular type, embedded inside a parent tag. The children have to be embedded in the same parent tag.
 
 */
