@@ -259,6 +259,11 @@ header {
 /* HOW IT WORKS */
 /*------------------------------------------*/
 
+/*Adding a subtle color. It affects the "visual transition" from this section to the next one while scrolling down the page.*/
+.section-steps {
+    background-color: #f4f4f4;
+}
+
 .steps-box {
     margin-top: 30px; 
 }
