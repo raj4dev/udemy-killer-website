@@ -113,7 +113,13 @@ h3 {
     width: 30px;
     text-align: center;
     color: #e67e22;
-    font-size: 120%;
+    font-size: 120%; /*A line height in percent of the current font size. */
+    margin-right: 10px;
+    
+    /*Tip to align text next to icon font*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
 }
 
 /* ----- BUTTONS ----- */
@@ -347,11 +353,26 @@ header {
 >> background-size also accepts the cover keyword. The image is scaled to fit the entire container but, if that has a different aspect 
 ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-property/
 
+
 >> In the header, linear gradient acts like a second background image.
+
 
 >> :link, :visited etc are pseudo class for html links. Note that the order of the CSS for links matters. Two key CSS concepts explain
 this. Specificity and inheritance. https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/
 
->>> :first-child - The :first-child selector will select only the first child of a particular type, embedded inside a parent tag. The children have to be embedded in the same parent tag.
+
+>>> :first-child - The :first-child selector will select only the first child of a particular type, embedded inside a parent tag. The
+children have to be embedded in the same parent tag.
+
+
+>> Negative margins:
+When a static (not floated) element is given a negative margin on the top/left, it pulls the element in that specified direction. 
+Example: #mydiv1 {margin-top:-10px;} moves the element 10px upwards.
+
+But, if you apply it to the bottom/right, it doesn’t move the element down/right as you might think. Instead, it pulls any succeeding
+element into the main element, overlapping it.
+
+More info here - https://www.smashingmagazine.com/2009/07/the-definitive-guide-to-using-negative-margins/
+
 
 */
