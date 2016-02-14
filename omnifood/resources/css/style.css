@@ -193,6 +193,7 @@ header {
     background-size: cover;/*It is like zooming into the background image*/
     background-position: center;
     height: 100vh; /*100% of viewport*/
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -361,6 +362,35 @@ header {
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+
+/*------------------------------------------*/
+/* TESTIMONIALS */
+/*------------------------------------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed; /*When we scroll in the page, the image stays in the same place, relative to the browser window*/
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;/*Italic style comes from the webfont css we imported in the html page.*/
+    line-height: 145%;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 
