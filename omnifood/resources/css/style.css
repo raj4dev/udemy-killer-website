@@ -389,9 +389,10 @@ cite {
 }
 
 cite img {
-    height: 50px;
+    height: 45px;
     border-radius: 50%;
     margin-right: 10px;
+    vertical-align: middle; /**/
 }
 
 
