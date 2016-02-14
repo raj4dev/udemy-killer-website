@@ -385,6 +385,7 @@ blockquote {
 cite {
     font-size: 90%;
     margin-top: 25px;
+    display: block;
 }
 
 cite img {
