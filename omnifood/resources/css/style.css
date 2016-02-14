@@ -380,6 +380,8 @@ blockquote {
     padding: 2%;
     font-style: italic;/*Italic style comes from the webfont css we imported in the html page.*/
     line-height: 145%;
+    position: relative;
+    margin-top: 40px; 
 }
 
 cite {
@@ -388,11 +390,20 @@ cite {
     display: block;
 }
 
+blockquote:before {
+    content: "\201C";/*\201C is a glyph or symbol for left double quotes*/
+    font-size: 500%;
+    display: block; /*will display this :before pseudoelement on a new line.*/
+    position: absolute;/*This works only when 'blockquote' has position relative.*/
+    top: -5px;
+    left: -3px;
+}
+
 cite img {
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
-    vertical-align: middle; /**/
+    vertical-align: middle;
 }
 
 
