@@ -380,7 +380,7 @@ blockquote {
     padding: 2%;
     font-style: italic;/*Italic style comes from the webfont css we imported in the html page.*/
     line-height: 145%;
-    position: relative;
+    position: relative;/*This means all positioned elements inside of this element should be positioned relative to this element's location*/
     margin-top: 40px; 
 }
 
