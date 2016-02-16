@@ -429,6 +429,8 @@ cite img {
 
 .plan-box div:first-child {
     background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .plan-box div:last-child {
@@ -480,8 +482,7 @@ ratio, the image will be cropped. http://www.sitepoint.com/css3-background-size-
 this. Specificity and inheritance. https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/
 
 
->>> :first-child - The :first-child selector will select only the first child of a particular type, embedded inside a parent tag. The
-children have to be embedded in the same parent tag.
+>>> :first-child - This pseudo-class matches an element only if it's the first child element of its parent element. For instance, li:first-child matches the first list item in an ol or ul element. It doesn’t match the first child of a list item.
 
 
 >> Negative margins:
