@@ -407,6 +407,60 @@ cite img {
 }
 
 
+/*------------------------------------------*/
+/* NOTES */
+/*------------------------------------------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%; /*half of the 10% remaning width*/
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0; 
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;/*To make font less bold. Also, look at the imported fonts in the html file for this font weight. */
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 30%; /*30% of .plan-price font-size*/
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
 
 
 
