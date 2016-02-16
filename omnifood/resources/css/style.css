@@ -420,6 +420,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%; /*half of the 10% remaning width*/
+    box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div {
