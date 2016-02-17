@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+/*removes the blue border chrome browser puts around elements when you click or focus on them.*/
+*:focus {outline: none;}
+
 html {
     background-color: #fff;
     color: #555;
@@ -491,6 +494,12 @@ textarea {
 textarea {
     height: 100px;
 }
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+
 
 
 
