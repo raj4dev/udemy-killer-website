@@ -1,11 +1,32 @@
 /*Big tablet to 1200px, i.e. widths that are smaller than the 1140pxrow.*/
 @media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%; /*Look at css for ".row"*/
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+    
     
 }
 
 /*Small tablet to big tablet: 768px to 1023px*/
 @media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
     
+    section {
+        padding: 60px 0;
+    }
+    
+    /*Refer to the typography lesson*/
+    .long-copy {
+        width: 80%; /*With this, the text will not be centered anymore. Setting the margin will fix this.*/
+        margin-left: 10%; /*Will effectively center all the text*/
+    }
 }
 
 /*For small phones and small tablets*/
